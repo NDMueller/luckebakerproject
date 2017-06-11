@@ -23,7 +23,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors());
-app.use(express.static('./dist'));
+app.use(express.static('./../dist'));
 
 //=== Database ==============================================
 var massiveInstance = massive.connectSync(config.massiveConnection);
