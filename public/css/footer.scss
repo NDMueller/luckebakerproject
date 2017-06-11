@@ -1,0 +1,29 @@
+
+
+.footer {
+   height: 100px;
+   text-align: center;
+   background-color: #898d8d;
+  //  border-top: 1px solid #444;
+   .footerText {
+      margin-top: 15px;
+      color: white;
+      font-size: 15px;
+      font-family: 'Prompt';
+      display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   }
+  //  .footerlogo{
+  //    float: left;
+  //  }
+  //  a:link, a:visited, a:hover, a:active {
+  //  color: #874;
+  //  text-decoration: none;
+  //  }
+}

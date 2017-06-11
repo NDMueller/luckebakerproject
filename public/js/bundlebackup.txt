@@ -1,0 +1,56 @@
+'use strict';
+
+angular.module('bakerApp', ['ui.router']).config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
+  $stateProvider.state('home', {
+    url: '/',
+    templateUrl: './views/home.html'
+  }).state('recipes', {
+    url: '/recipes',
+    templateUrl: './views/recipes.html'
+  }).state('about', {
+    url: '/about',
+    templateUrl: './views/about.html'
+  }).state('login', {
+    url: '/login',
+    templateUrl: './views/login.html'
+  }).state('recipeForm', {
+    url: '/recipe/submit',
+    templateUrl: './views/forms.html'
+  });
+  $urlRouterProvider.otherwise('/');
+}]);
+'use strict';
+
+angular.module('bakerApp').controller('formCtrl', function ($scope, formSrv) {
+  console.log("why Won't this work?");
+  $scope.test = 'lloyd';
+  $scope.postRecipe = function (title, instructions, description) {
+    console.log(title, instructions, description);
+    formSrv.postRecipe(title, instructions, description).then(function (response) {
+      console.log(response);
+    });
+  };
+});
+'use strict';
+
+angular.module('bakerApp').directive('navDir', function () {
+  return {
+    restrict: 'E',
+    templateUrl: './views/navDirTemp.html'
+  };
+});
+'use strict';
+
+angular.module('bakerApp').service('formSrv', function ($http) {
+  undefined.postRecipe = function (titleIn, instructionsIn, descriptionIn) {
+    return $http({
+      method: "POST",
+      url: "http://localhost:8127/recipes/submit",
+      data: {
+        title: titleIn,
+        instructions: instructionsIn,
+        description: descriptionIn
+      }
+    });
+  };
+});

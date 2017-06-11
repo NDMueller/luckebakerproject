@@ -1,0 +1,255 @@
+.btn-default {
+color: #333;
+background-color: #fff;
+border-color: #ccc;
+}
+
+.btn {
+font-family:'Prompt';
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+#page-content-wrapper {
+width: 100%;
+padding: 15px;
+}
+
+#page-content-wrapper {
+padding: 20px;
+}
+
+.sidebar {
+  font-family:'Prompt';
+  list-style-type:none;
+  background-color:#006F52;
+  width:230px;
+  height:100vh;
+  top:0;
+  bottom:0;
+  left:0;
+  text-align:left;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition:1s ease;
+}
+
+.sidebar li {
+  text-decoration:none;
+  color:white;
+  transition:1s ease;
+}
+
+.sidebar li {
+  text-indent: 20px;
+  line-height: 40px;
+  transition:0.5s ease;
+}
+
+.sidebar li:hover {
+  color: black;
+  background-color:#CFD8DC;
+  cursor:pointer;
+  text-indent: 30px;
+}
+
+.sidebar > .sidebar-brand {
+height: 65px;
+font-size: 18px;
+line-height: 60px;
+}
+
+.container 		{
+  font-family:'Prompt';
+  width:600px;
+  margin:30px auto 0;
+  // display:block;
+
+  padding:10px 50px 50px;
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction:column;
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+/* form starting stylings ------------------------------- */
+.group 			  {
+  position:relative;
+  margin-bottom:45px;
+}
+.inputForm				{
+  font-family:'Prompt';
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #006F52;
+}
+.inputForm:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  font-family: "Prompt";
+  color:#999;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.inputForm:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#006F52;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#006F52;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%;
+}
+
+/* active state */
+.inputForm:focus ~ .bar:before, .inputForm:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%;
+  width:100px;
+  top:25%;
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.inputForm:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#006F52; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#006F52; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#006F52; }
+  to 	{ width:0; background:transparent; }
+}
+
+
+
+
+.button {
+  font-family:'Prompt';
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 30px;
+  transition: background 300ms;
+}
+.button.outline {
+  font-family:'Prompt';
+  color: #006F53;
+  overflow: hidden;
+  position: relative;
+}
+.button.outline:before, .button.outline:after, .button.outline .lines:before, .button.outline .lines:after {
+  background-color: #006F53;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: transform 300ms;
+  width: 100%;
+}
+.button.outline:before {
+  bottom: 0;
+  top: auto;
+}
+.button.outline .lines {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.button.outline .lines:before, .button.outline .lines:after {
+  height: 100%;
+  width: 2px;
+}
+.button.outline .lines:after {
+  left: auto;
+  right: 0;
+}
+.button:hover:before {
+  transform: translateX(-100%);
+}
+.button:hover:after {
+  transform: translateX(100%);
+}
+.button:hover .lines:before {
+  transform: translateY(-100%);
+}
+.button:hover .lines:after {
+  transform: translateY(100%);
+}
+
+.button-holder {
+  padding-top: 150px;
+  text-align: center;
+}

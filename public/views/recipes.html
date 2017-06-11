@@ -1,0 +1,33 @@
+<nav-dir></nav-dir>
+
+<div class="recipeWrapper">
+  <div class="centered">
+
+
+    <div class="inputSearch">
+      <input class="inputForm"type="text" required ng-model="search">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Search</label>
+    </div>
+    </div>
+
+        <div class="" ng-repeat="recipe in recipes | filter: search">
+
+            <div class='card'>
+                <div class="card1">
+                    {{recipe.title}} <!--by {{recipe.userID}}-->
+                </div>
+                <div class="left">
+
+                    {{recipe.ingredients}}
+                </div>
+                <p class='bio'>
+                    {{recipe.instructions}} {{recipe.description}}
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+<footer-dir></footer-dir>

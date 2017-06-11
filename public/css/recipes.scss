@@ -1,0 +1,215 @@
+.recipeWrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top:150px;
+  min-height: 300px;
+  // word-wrap: break-word;
+}
+.left::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+.centered{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  word-wrap: break-word;
+}
+.inputSearch{
+font-family:'Prompt';
+position:relative;
+margin-bottom:45px;
+word-wrap: break-word;
+
+}
+.inputForm				{
+  font-family:'Prompt';
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #006F52;
+  word-wrap: break-word;
+}
+.inputForm:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  font-family: "Prompt";
+  color:#999;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.inputForm:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#006F52;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#006F52;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%;
+}
+
+/* active state */
+.inputForm:focus ~ .bar:before, .inputForm:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%;
+  width:100px;
+  top:25%;
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.inputForm:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#006F52; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#006F52; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#006F52; }
+  to 	{ width:0; background:transparent; }
+}
+
+
+
+.card {
+  font-family: "American Typewriter";
+  // font-family:'Prompt';
+  min-height: 300px;
+  width: 600px;
+  margin: 40px auto;
+  background-color: #CFD8DC;
+  color: #333;
+  overflow: hidden;
+  box-shadow: 5px 5px 0 0 #aaa;
+word-wrap: break-word;
+}
+.card1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  // font-family:'Prompt';
+  font-family: "American Typewriter";
+  // font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: #006F53;
+  animation: fadein 1.2s;
+  color:white;
+  word-wrap: break-word;
+
+}
+.left {
+  // font-family:'Prompt';
+  font-family: "American Typewriter";
+  letter-spacing: 2px;
+  font-size: 20px;
+  // float: left;
+  // width: 200px;
+  // height: 200px;
+  margin: 20px;
+  position: relative;
+  z-index: 1;
+  animation: grow 0.6s;
+  word-wrap: break-word;
+
+
+}
+.card .bio {
+  position: relative;
+  margin: 20px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  // font-family:'Prompt';
+  font-family: "American Typewriter";
+  animation: slidein 1.2s;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+
+
+
+}
+
+@keyframes fadein {
+  from {
+    color: transparent;
+  }
+  to {
+    color: inherit;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  49.9% {
+    opacity: 0;
+  }
+  50% {
+    left: -240px;
+  }
+  to {
+    left: 0;
+  }
+}

@@ -1,0 +1,79 @@
+<div class="body">
+
+
+<nav-dir></nav-dir>
+
+<div class="parallaxWrapper">
+
+
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border">Welcome</span>
+    </div>
+  </div>
+
+  <div class="lloyd">
+    <h3>Why North Dakota?</h3>
+    <p>NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH     DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING      SIOUX.NORTH DAKOTA. FIGHTING
+      SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA.
+      FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH
+      DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.NORTH DAKOTA. FIGHTING SIOUX.</p>
+  </div>
+
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;zfont-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:black;background-color:rgba(255, 255, 255, 0.8);text-align:center;padding:50px 80px;text-align: justify;">
+      <p>Know what goes well here? Some nice texty text text..</p>
+    </div>
+  </div>
+
+  <div class="bgimg-3">
+
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:black;background-color:rgba(255, 255, 255, 0.8);text-align:center;padding:50px 80px;text-align: justify;">
+      <p>Know what goes well here? Some nice texty text text.</p>
+    </div>
+  </div>
+
+  <div class="bgimg-4">
+    <div class="caption">
+      <span class="border">COOL!</span>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<div class="philly">
+  <div class="philly1">
+    <img src="./app/images/barryie.png">
+  </div>
+  <div class="philly1">
+    <img src="./app/images/bread.png">
+  </div>
+  <div class="philly1">
+    <img src="./app/images/bread1.png">
+  </div>
+  <div class="philly1">
+
+  <img src="./app/images/pizza.png">
+  </div>
+  <div class="philly1">
+  <img src="./app/images/spoon.png">
+  </div>
+</div>
+</div>
+
+<footer-dir></footer-dir>
+<div class="flx-embed"><iframe width="1888" height="1062" src="https://media.flixel.com/cinemagraph/iwow8r95qh19by7wuj3x?hd=true" frameborder="0" allowfullscreen></iframe></div>
+
+
+<div class="flx-embed"><iframe width="1630" height="918" src="https://media.flixel.com/cinemagraph/x0x2klaj1xgh7sf8wguw?hd=false" frameborder="0" allowfullscreen></iframe></div>

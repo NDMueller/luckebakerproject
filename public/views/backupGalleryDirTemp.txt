@@ -1,0 +1,77 @@
+
+<section class="gallery">
+	<figure>
+		<img src="./app/images/berrypie.png" alt="" />
+		<figcaption>Barry's Berry Pie</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/bagel.png" alt="" />
+		<figcaption>Lucke Bagels</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/bars.png" alt="" />
+		<figcaption>Lucke Bars</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cheescake.png" alt="" />
+		<figcaption>Lucke CheeseCake</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cherrypie.png" alt="" />
+		<figcaption>Cherry Pie</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/chocmuffin.png" alt="" />
+		<figcaption>Lucke Chocolate Chip Muffins</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cobbler.png" alt="" />
+		<figcaption>Lucke Cobbler</figcaption>
+	</figure>
+
+<figure>
+		<img src="./app/images/colorcake.png" alt="" />
+		<figcaption>Color Cake.</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cookie.png" alt="" />
+		<figcaption>Cookies!</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cookieskillet.png" alt="" />
+		<figcaption>Cookie Skillet!</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/croissant.png" alt="" />
+		<figcaption>Croissants!</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cupcake.png" alt="" />
+		<figcaption>Carrot Cupcake</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cupcake2.png" alt="" />
+		<figcaption>Lucke Birthday Cupcakes</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/cupcake3.png" alt="" />
+		<figcaption>Chocolate Cupcake</figcaption>
+	</figure><figure>
+		<img src="./app/images/donut.png" alt="" />
+		<figcaption>Lucke Donuts!</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/pretzel.png" alt="" />
+		<figcaption>Lucke Pretzels!</figcaption>
+	</figure>
+	<figure>
+		<img src="./app/images/choccherry.png" alt="" />
+		<figcaption>Chocolate Angel Food Cake With Cherry</figcaption>
+	</figure><figure>
+		<img src="./app/images/chocbrownie.png" alt="" />
+		<figcaption>Chocolate Brownies!</figcaption>
+	</figure>
+
+
+
+</section>

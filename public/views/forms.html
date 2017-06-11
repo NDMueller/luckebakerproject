@@ -1,0 +1,52 @@
+<ul class="sidebar">
+  <li class="sidebar-brand" ui-sref="home">Lucke Baker</li>
+  <li ui-sref="recipes">Recipes</li>
+  <li ui-sref="gallery">Gallery</li>
+  <li ui-sref="about">About</li>
+</ul>
+
+<div class="container">
+
+  <div class="group">
+    <input class="inputForm" type="text" required ng-model="titleInput">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Title</label>
+  </div>
+
+  <div class="group">
+    <input class="inputForm" type="text" required ng-model="instructionsInput">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Instructions</label>
+  </div>
+
+  <div class="group">
+    <input class="inputForm" type="text" required ng-model="descriptionInput">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Description Optional</label>
+  </div>
+
+  <div class="group">
+    <input class="inputForm" type="text" required ng-model="ingredientsInput">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Ingredients</label>
+  </div>
+
+  <div class="button-holder">
+    <div class="button outline" ng-click="postRecipe(titleInput,instructionsInput,descriptionInput,ingredientsInput)">Submit<span class="lines"></span></div>
+  </div>
+
+  <div class="ng-modal" ng-show="show">
+
+  <div class="ng-modal-dialog" ng-style="dialogStyle">
+<br>
+<br>
+              Recipe Submitted
+    <div class="ng-modal-close" ng-click="hideModal()">X</div>
+
+    </div>
+  </div>
+</div>

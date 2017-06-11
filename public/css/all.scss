@@ -1,0 +1,126 @@
+@import url( 'https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+.iowaState{
+font-family: "Prompt"
+}
+.parallaxWrapper{
+  height: 100%;
+  margin-top: 100px;
+  margin: 0;
+  // font: 400 15px/1.8 "Lato", sans-serif;
+  color: #78909c;
+}
+.lloyd3{
+  position:relative;
+  font-size: 30px;
+}
+.lloyd2{
+color:black;
+background-color:rgba(255, 255, 255, 0.8);
+text-align:center;padding:50px 80px;
+text-align: center;
+font-family:"Patrick Hand SC";
+font-style: 30px;
+
+}
+.bgimg-1 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/lucke2187baker/ND.jpg");
+  // min-height: 400px;
+  min-height: 62vh;
+  width: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding:0;
+}
+
+.lloyd{
+  background-color: white;
+  color: black;
+  text-align:center;
+  padding:50px 80px;
+  // text-align: justify;
+}
+.lloyd p{
+  font-family: "Patrick Hand SC";
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+
+}
+.bgimg-2 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/lucke2187baker/2.jpg");
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding:0;
+
+}
+
+.bgimg-3 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/lucke2187baker/3.jpg");
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;margin: 0;
+  padding:0;
+
+}
+.bgimg-4 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/lucke2187baker/GFND.jpg");
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding:0;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+.philly{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+}
+.philly1{
+  display: inline-block;
+}
+#map {
+  height: 100px;
+  width: 100%;
+ }
